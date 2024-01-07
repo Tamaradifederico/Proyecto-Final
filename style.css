@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  padding: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header > nav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+header nav a {
+  color: black;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: x-large;
+}
+header > nav > a:hover {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+header {
+  background-color: crimson;
+}
+header nav {
+  text-align: center;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+header nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  width: auto;
+  height: auto;
+  background-color:none;
+}
+
+h2 {
+  width: auto;
+  height: auto;
+  background-color:none;
+  
+  }
+
+main {
+  background-image: linear-gradient(grey, white);
+  display: flex;
+  justify-content: space-around;
+}
+main section {
+  margin: 10px;
+}
+main section div {
+  width: 20rem;
+}
+main section div image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+}
+main section div h1, main section div h2 {
+  text-align: center;
+  font-size: larger;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main section div p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  text-align: center;
+  line-height: 20px;
+}
+
+.main {
+  width: 100%;
+  justify-content: center;
+  border: 1px solid black;
+  margin: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  gap: 10px;
+  grid-template-areas: "area4 area1 area2 area3" "area4 area5 area2 area6" "area7 area8 area2 area9";
+}
+
+.area {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+}
+
+#area1 {
+  grid-area: area1;
+}
+
+.Img1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#area2 {
+  grid-area: area2;
+}
+
+.Img2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#area3 {
+  grid-area: area3;
+}
+
+.Img3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#area4 {
+  grid-area: area4;
+}
+
+.Img4 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#area5 {
+  grid-area: area5;
+}
+
+.Img5 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#area6 {
+  grid-area: area6;
+}
+
+.Img6 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#area7 {
+  grid-area: area7;
+}
+
+.Img7 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#area8 {
+  grid-area: area8;
+}
+
+.Img8 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#area9 {
+  grid-area: area9;
+}
+
+.Img9 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main > .Tarjetas {
+  width: 450px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.container {
+  width: 450px;
+  height: 450px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+article > form {
+  width: 20rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.main-inicio {
+  justify-content: center;
+  border: 0% solid black;
+  margin: 0%;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  gap: 10px;
+  grid-template-areas: "area1 area2" "area5 area2" "area5 area6";
+}
+
+.area {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+}
+
+#area1 {
+  grid-area: area1;
+}
+
+.Imga {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#area2 {
+  grid-area: area2;
+}
+
+.Imgb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: crimson;
+  flex-wrap: wrap;
+}
+footer .copy {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer .redes {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 15px;
+}
+footer .redes a {
+  padding: 5px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+nav {
+  background-color: crimson;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  font-size: xx-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+@media (max-width: 768px) {
+  .main {
+    border: 1px solid rgb(0, 0, 0);
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 200px);
+    gap: 10px;
+    grid-template-areas: "area1 area2 area3" "area4 area4 area5" "area6 area7 area7" "area8 area8 area9";
+  }
+}
+@media (max-width: 320px) {
+  .main {
+    border: 1px solid black;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(9, 150px);
+    gap: 10px;
+    grid-template-areas: "area1" "area2" "area3" "area4" "area5" "area6" "area7" "area8" "area9";
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

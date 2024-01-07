@@ -1,0 +1,26 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: crimson;
+    flex-wrap: wrap;
+  
+    .copy {
+      color: black;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+    .redes {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      padding: 15px;
+  
+      a {
+        padding: 5px;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+      }
+    }
+  }
+  
